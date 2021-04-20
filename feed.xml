@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-04-19T15:35:42+01:00</updated><id>/feed.xml</id><entry><title type="html">Publications</title><link href="/2021/04/08/publications.html" rel="alternate" type="text/html" title="Publications" /><published>2021-04-08T00:00:00+01:00</published><updated>2021-04-08T00:00:00+01:00</updated><id>/2021/04/08/publications</id><content type="html" xml:base="/2021/04/08/publications.html">&lt;p&gt;Publications&lt;/p&gt;
+
+&lt;p&gt;
+    I have peer reviewed articles about dark adaptation, colour vision, glare,  and video data processing.
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://scholar.google.co.uk/citations?hl=en&amp;amp;user=WvsuodoAAAAJ&amp;amp;view_op=list_works&amp;amp;gmla=AJsN-F7jHcEjRaKJk-T0sDg7t8w5SFJzVKQKgd5qpdL2RWfD6mi5KT9ZP3IlTPLICWdLPEK-wW7WH9KTyGQVjvBsMtZikz_wVM6BMyKaMqrJYhYFLUGWLiY&quot; target=&quot;_blank&quot;&gt;
+List of Publications hosted by Google Scholar&lt;/a&gt;&lt;/p&gt;</content><author><name>academia</name></author><summary type="html">Publications</summary></entry><entry><title type="html">Programming R</title><link href="/2021/04/08/programming-R.html" rel="alternate" type="text/html" title="Programming R" /><published>2021-04-08T00:00:00+01:00</published><updated>2021-04-08T00:00:00+01:00</updated><id>/2021/04/08/programming-R</id><content type="html" xml:base="/2021/04/08/programming-R.html">&lt;p&gt;I started programming in R during the second year of my PhD in 2010.&lt;/p&gt;
+
+&lt;p&gt;I was finding using the university supplied version of Matlb difficult to use from home, and even moreso when working away from home. 
+My github&lt;a href=&quot;https://github.com/emkayoh&quot; target=&quot;_blank&quot;&gt; repository&lt;/a&gt; holds the R code that I wrote to analyse dark adaptation data. 
+It relies on a uniform prior distribution and then implements an optimisation routine to estimate the parameters of the model to describe the data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://travis-ci.org/emkayoh/Dark.svg?branch=master&quot; alt=&quot;Cran build badge&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This code was the starting point for analysis of dark adaptation data, collected during my PhD.
+It has been superceded by other methods written in python, C++ and javascript.&lt;/p&gt;
+
+&lt;p&gt;I am the author of a library hosted on the CRAN servers.&lt;a href=&quot;https://CRAN.R-project.org/package=Dark&quot; target=&quot;_blank&quot;&gt;Dark package&lt;/a&gt;&lt;/p&gt;</content><author><name>interests</name></author><summary type="html">I started programming in R during the second year of my PhD in 2010.</summary></entry><entry><title type="html">The Rapida Dark Adaptometer</title><link href="/2021/04/08/The-Rapida-Dark-Adaptometer.html" rel="alternate" type="text/html" title="The Rapida Dark Adaptometer" /><published>2021-04-08T00:00:00+01:00</published><updated>2021-04-08T00:00:00+01:00</updated><id>/2021/04/08/The-Rapida-Dark-Adaptometer</id><content type="html" xml:base="/2021/04/08/The-Rapida-Dark-Adaptometer.html">&lt;p&gt;Dark Adaptation when the visual system has to adapt to a dark environment after being in the light.&lt;/p&gt;
+
+&lt;p&gt;I am a founder and director of a medical device company spun out from the University of&lt;a href=&quot;http://www.manchester.ac.uk&quot; target=&quot;_blank&quot;&gt;Manchester. &lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;h2&gt;The Rapida dark adaptometer&lt;/h2&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/mumac/Mumac R07.1553.png&quot; alternate=&quot;some text&quot; width=&quot;700px&quot; /&gt;
+&lt;img src=&quot;/assets/images/mumac/Mumac R07.1552.png&quot; alternate=&quot;some text&quot; width=&quot;700px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are building a device to help people with early macular disease.
+Age related macular disease (AMD) is the commonest cause of vision loss in people over 65 and is growing.
+&lt;/p&gt;
+
+&lt;p&gt;The disease takes, many forms;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wet
+    &lt;ul&gt;
+      &lt;li&gt;profound vision loss&lt;/li&gt;
+      &lt;li&gt;monthly ocular injections&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Dry
+    &lt;ul&gt;
+      &lt;li&gt;poor vision at night&lt;/li&gt;
+      &lt;li&gt;difficulty with glare&lt;/li&gt;
+      &lt;li&gt;geographic atrophy&lt;/li&gt;
+      &lt;li&gt;drusen&lt;/li&gt;
+      &lt;li&gt;treatment being actively researched&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+Although currently there is no treatment for dry AMD, many pharmaceutical companies are invetsigating possible therapies.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mumac/AMD_demographic.jpg&quot; alternate=&quot;some text&quot; width=&quot;600px&quot; /&gt;&lt;/p&gt;
+&lt;caption&gt;Data taken from the ONS showing the numbers of people in the UK affected by AMD.
+&lt;/caption&gt;</content><author><name>work</name></author><summary type="html">Dark Adaptation when the visual system has to adapt to a dark environment after being in the light.</summary></entry><entry><title type="html">Programming Javascript</title><link href="/2021/04/08/programming-javascript.html" rel="alternate" type="text/html" title="Programming Javascript" /><published>2021-04-08T00:00:00+01:00</published><updated>2021-04-08T00:00:00+01:00</updated><id>/2021/04/08/programming-javascript</id><content type="html" xml:base="/2021/04/08/programming-javascript.html">&lt;ul&gt;
+        &lt;li&gt;
+
+
+I'm learning JS by completing&lt;a href=&quot;https://www.codewars.com/users/emkayoh&quot; target=&quot;blank&quot;&gt;Katas in Javascript &lt;/a&gt;
+                   &lt;p&gt;&lt;img src=&quot;https://www.codewars.com/users/emkayoh/badges/small&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+
+  
+&lt;/ul&gt;</content><author><name>interests</name></author><summary type="html"></summary></entry><entry><title type="html">Confidence Intervals</title><link href="/2021/04/05/confidence-intervals.html" rel="alternate" type="text/html" title="Confidence Intervals" /><published>2021-04-05T00:00:00+01:00</published><updated>2021-04-05T00:00:00+01:00</updated><id>/2021/04/05/confidence-intervals</id><content type="html" xml:base="/2021/04/05/confidence-intervals.html">&lt;p&gt;Loads of stuff about parameter estimation&lt;/p&gt;</content><author><name>academia</name></author><summary type="html">Loads of stuff about parameter estimation</summary></entry><entry><title type="html">Parameter Estimation</title><link href="/2021/04/05/parameter-estimation.html" rel="alternate" type="text/html" title="Parameter Estimation" /><published>2021-04-05T00:00:00+01:00</published><updated>2021-04-05T00:00:00+01:00</updated><id>/2021/04/05/parameter-estimation</id><content type="html" xml:base="/2021/04/05/parameter-estimation.html">&lt;style type=&quot;text/css&quot;&gt;
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+&lt;/style&gt;
+
+&lt;script type=&quot;text/x-mathjax-config&quot;&gt;
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    },
+    TeX: { 
+        Macros:{
+            fn: &quot;Residuals&quot;
+        },
+        extensions: [&quot;AMSmath.js&quot;,&quot;autobold.js&quot;]},
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i &lt; all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full&quot;&gt;&lt;/script&gt;
+
+&lt;h2 id=&quot;dark-adaptation-models&quot;&gt;Dark adaptation models&lt;/h2&gt;
+
+&lt;p&gt;There are at least two models used in the literature.
+The first is a twin exponential decay&lt;/p&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/CI_fig_01&quot; alt=&quot;drawing&quot; width=&quot;600&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;the second, an exponential, bilinear model, is more complex and was first described by Mahroo and Lamb (ref)&lt;/p&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/CI_fig_02&quot; alt=&quot;drawing&quot; width=&quot;600&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;We are concerned with a reduced form of the Mahroo and Lamb Model with only five parameters.The threshold $Thr~(log(cd.m^{-2})$) with respect to $time~(minutes)$ of adaptation is defined as the sum of the Cone response; &lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;align:center;&quot;&gt;$$Thrs_{cone} = CT + CC*\exp{(\dfrac{-time}{\tau})},$$ &lt;/div&gt;
+
+&lt;p&gt;where $CT$ is the absolute cone threshold ($log(cd.m^{-2})$), $CC~(log(cd.m^{-2})$) the cone offset at time zero, and the time constant of recovery $\tau~(minutes)$,  and the Rod threshold;
+&lt;br /&gt;&lt;/p&gt;
+&lt;div style=&quot;align:center;&quot;&gt;$$Thrs_{rod} = \dfrac{S2 *(time-\alpha)}{1 + \exp{(-k*(time - \alpha))}},$$ &lt;/div&gt;
+
+&lt;p&gt;where $S2~(log(cd.m^{-2}).min^{-1})$ is the rate limited rod recovery rate, $\alpha~(min)$ is the time when rod sensitivity is greater than cone sensitivity, and $k$ is a dimensionless value. The denominator ensures that rod contribution to sensitivity is nil before $\alpha$ and additive after, the value of $k$ affects the rate of switch transition and is discussed in the appendix.&lt;/p&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/CI_fig_03&quot; alt=&quot;drawing&quot; width=&quot;600&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hence the estimated threshold for a time $t$ and model parameter estimate $\boldsymbol{\hat\theta}$ is; 
+\begin{equation}\label{eqn:est}
+\tag{1}
+Thrs(\boldsymbol{\hat\theta}, t) = \theta_1 + \theta_2\exp\Big({\dfrac{-t}{\theta_3}} \Big) +  \theta_4\dfrac{(t-\theta_5)}{1 + \exp{(-k*(t - \theta_5)})}\end{equation}&lt;/p&gt;
+
+&lt;p&gt;and it follows that the residuals can be written as a vector $\bf{R}$  where&lt;/p&gt;
+
+&lt;p&gt;\begin{align}\label{eqh:resi}
+          \boldsymbol{R(\hat\theta)} &amp;amp;= \begin{bmatrix} 
+          thrs_1 - Thrs(\boldsymbol{\hat\theta}, time_1) \cr
+          thrs_2 - Thrs(\boldsymbol{\hat\theta}, time_2) \cr
+          thrs_3 - Thrs(\boldsymbol{\hat\theta}, time_3) \cr
+          \vdots&lt;br /&gt;
+          thrs_n - Thrs(\boldsymbol{\hat\theta}, time_n)
+         \end{bmatrix}
+\end{align}&lt;/p&gt;
+
+&lt;h2 id=&quot;finding-the-parameters&quot;&gt;Finding the parameters&lt;/h2&gt;
+
+&lt;p&gt;We are interested in the parameters ($\boldsymbol{\theta}$) of the model described above, a common technique takes a number ($n$) of threshold measurements over time and calculates the difference between the actual measurements and estimated values for a given set of parameters. These differences are squared and summed, then the parameters of the model are modified until the sum of squares is at a minimum, the final parameter values are then considered optimal. The sum of the squared differences of the measured threshold and the estimated threshold is minimised, such that when $L(\boldsymbol{\theta})$ is at a minimum, the values of $\theta$ are the best estimate.&lt;/p&gt;
+
+&lt;p&gt;This objective function can be written using $\odot$ to express element wise multiplication
+\(L(\boldsymbol{\hat\theta}) = \sum_{i = 1}^{n}{\boldsymbol{R(\hat\theta)}\odot \boldsymbol{R(\hat\theta)}}.\) We use element wise multiplication notation to retain the $\sum$ notation.&lt;/p&gt;
+
+&lt;p&gt;When $L(\boldsymbol{\hat\theta})$ is at a minimum, $\dfrac{dL}{d\boldsymbol\theta} = 0$. We can use the gradient of the slope of the objective function to locate the minimum of the function using a gradient descent method.&lt;/p&gt;
+
+&lt;h3 id=&quot;gradient-decent&quot;&gt;Gradient decent&lt;/h3&gt;
+
+&lt;p&gt;We assume the objective function is convex over the parameter space, so that we can use the partial derivatives of the objective function to estimate the values of $\boldsymbol{\theta}$. A function composed of non decreasing convex functions will be convex, see a&lt;a href=&quot;https://math.stackexchange.com/questions/108393/s-the-composition-of-n-convex-functions-itself-a-convex-function, 11/11/2020&quot;&gt;possible weakness here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The method is illustrated in the figure below, and is briefly as follows. The gradient of the objective function for a set of parameters values (location 1), summarised as $\boldsymbol{\hat\theta}_1$ is found, these values are used to make a further estimate $\boldsymbol{\hat\theta}_2$ and a new gradient is found, which in turn is used to estimate new parameter values. The process is repeated until further changes yield little or no improvement in the value of $L(\boldsymbol{\hat\theta}_n)$.&lt;/p&gt;
+
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/CI_fig_04&quot; alt=&quot;drawing&quot; width=&quot;600&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;finding-the-gradient-vector&quot;&gt;Finding the gradient vector&lt;/h3&gt;
+
+&lt;p&gt;This all builds into a gradient vector that is used to move from the initial estimate to the next.&lt;/p&gt;
+
+&lt;p&gt;then the differentials can be expressed as;&lt;/p&gt;
+
+&lt;p&gt;\begin{align}
+\frac{\partial L}{\partial\theta_1} &amp;amp;= -2\sum_{i = 1}^{n}\Big( \boldsymbol{R}(\hat\theta)\odot \boldsymbol{1} \Big), \cr
+\qquad &amp;amp;\textrm{[cone threshold]}\cr
+\frac{\partial L}{\partial\theta_2} &amp;amp;= -2\sum_{i = 1}{n}\Big( \boldsymbol{R}(\hat\theta)\odot \exp\Big(-\dfrac{time_i}{\theta_3}  \Big)\Big),\cr
+\qquad &amp;amp;\textrm{[cone offset]}\cr
+\frac{\partial L}{\partial\theta_3} &amp;amp;= -2\sum_{i = 1}{n}\Big( \boldsymbol{R}(\hat\theta)\odot \dfrac{\exp\Big(-\theta_2.\dfrac{time_i}{\theta_3}.time_i  \Big) }{\theta_3^2}\Big),\cr
+\qquad &amp;amp;\textrm{[cone time constant]}\cr
+\frac{\partial L}{\partial\theta_4} &amp;amp;= -2\sum_{i = 1}^{n}\Big( \boldsymbol{R}(\hat\theta)\odot \dfrac{(time_i - \theta_5)}{\big(1 + \exp(time_i - \theta_5)  \big) }\Big), \cr
+\qquad &amp;amp;\textrm{[S2, rod rate of recovery]}\cr
+\frac{\partial L}{\partial\theta_5} &amp;amp;= -2\sum_{i = 1}^{n}\Big( \boldsymbol{R}(\hat\theta)\odot \Big(\dfrac{\theta_4}{1+\exp(time_i - \theta_5)}- \theta_4. \exp(time_i - \theta_5)\dfrac{(time_i - \theta_5)}{(1 + \exp(time_i - \theta_5))^2}  \Big)\Big). \cr
+\qquad &amp;amp;\textrm{[cone-rod break point]}\cr
+\end{align}&lt;/p&gt;
+
+&lt;p&gt;hence &lt;br /&gt;
+\begin{align}
+    \nabla_\theta \boldsymbol{L(\theta)} &amp;amp;= \begin{bmatrix}
+          \frac{\partial L}{\partial\theta_1} \cr
+           \frac{\partial L}{\partial\theta_2}\cr
+           \frac{\partial L}{\partial\theta_3}\cr
+           \frac{\partial L}{\partial\theta_4} \cr
+           \frac{\partial L}{\partial\theta_5}
+         \end{bmatrix}
+  \end{align}&lt;/p&gt;
+
+&lt;p&gt;Having found the gradient vector then we do the descent thing&lt;/p&gt;
+
+&lt;h3 id=&quot;plain-gradient-descent&quot;&gt;Plain gradient descent&lt;/h3&gt;
+
+&lt;p&gt;\begin{equation}\label{eqn:vani}
+\hat\theta_{n+1} =\hat\theta_{n} - \eta\nabla_\theta L(\hat\theta_{n}) &lt;br /&gt;
+\end{equation}&lt;/p&gt;
+
+&lt;h3 id=&quot;momentum&quot;&gt;Momentum&lt;/h3&gt;
+
+&lt;p&gt;\begin{equation} 
+v_0 = \boldsymbol{0}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;\begin{equation} 
+v_n = \gamma v_{n-1} + \eta \nabla_\theta L(\hat\theta_{n})
+\end{equation}
+\begin{equation} 
+\hat\theta_{n+1} = \hat\theta_{n} - v_n 
+\end{equation}&lt;/p&gt;
+
+&lt;h3 id=&quot;nesterov&quot;&gt;Nesterov&lt;/h3&gt;
+
+&lt;p&gt;\begin{equation} 
+v_n = \gamma v_{n-1} + \eta \nabla_\theta L( \hat\theta_{n} - \gamma v_{n-1} )
+\end{equation}
+\begin{equation} 
+\hat\theta_{n+1} = \hat\theta_{n} - v_n 
+\end{equation}&lt;/p&gt;
+
+&lt;h2 id=&quot;how-do-the-gradient-values-vary-as-the-estimate-changes&quot;&gt;How do the gradient values vary as the estimate changes?&lt;/h2&gt;
+
+&lt;p&gt;The first order partial differential equations are plotted below.&lt;/p&gt;
+
+&lt;p&gt;The parameters ct, cc and S2 are linear in the model&lt;/p&gt;
+
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/CI_fig_05&quot; alt=&quot;drawing&quot; width=&quot;800&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;However the cone rod break time (alpha) behaves quite differently, notice that if the initial estimates for alpha and tau are greater than 12 or 6 respectively then the gradient function will direct the parameter search in the ‘wrong’ direction.&lt;/p&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/CI_fig_06&quot; alt=&quot;drawing&quot; width=&quot;800&quot; /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;img src=&quot;/assets/images/CI_fig_07&quot; alt=&quot;drawing&quot; width=&quot;800&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;appendix&quot;&gt;Appendix&lt;/h2&gt;
+
+&lt;p&gt;\begin{equation}
+\boldsymbol{\nabla(\theta)} = 
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}\label{eqn:ct}
+\frac{\partial L}{\partial\theta_1} =
+\frac{\partial L}{\partial CT} = 
+-2\sum_{i =1}^{n}{\fn{}}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}\label{eqn:cc}
+\frac{\partial L}{\partial\theta_2} =
+\frac{\partial L}{\partial CC} = 
+-2 \sum_{i =1}^{n}\exp\Big(-\dfrac{time_i}{\theta_3}  \Big).{\fn{}}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}\label{eqn:tau}
+\frac{\partial L}{\partial\theta_3} =
+\frac{\partial L}{\partial \tau} = 
+-2\sum_{i =1}^{n}\dfrac{\exp\Big(-\dfrac{time_i}{\theta_3}\Big)\theta_2.time_i   {.\fn{}}}{\theta_3^2}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}\label{eqn:s2}
+\frac{\partial L}{\partial\theta_4} =
+\frac{\partial L}{\partial{S2}} = 
+-2\sum_{i =1}^{n}\dfrac{(time_i - \theta_5){.\fn{}}}{\big(1 + \exp(time_i - \theta_5)  \big)}
+\end{equation}&lt;/p&gt;
+
+&lt;p&gt;\begin{equation}
+\frac{\partial L}{\partial\theta_5} =
+\frac{\partial L}{\partial \alpha} = 
+ 2\sum_{i =1}^{n}\Big(\dfrac{\theta_4}{1+\exp(time_i - \theta_5)}- \theta_4. \exp(time_i - \theta_5)\dfrac{(time_i - \theta_5)}{(1 + \exp(time_i - \theta_5))^2}  \Big)&lt;br /&gt;
+ &lt;br /&gt;
+ {.\fn{}}
+\end{equation}&lt;/p&gt;</content><author><name>academia</name></author><summary type="html"></summary></entry><entry><title type="html">Vineyard Maintenence</title><link href="/2021/03/22/Vineyard-Maintenence.html" rel="alternate" type="text/html" title="Vineyard Maintenence" /><published>2021-03-22T00:00:00+00:00</published><updated>2021-03-22T00:00:00+00:00</updated><id>/2021/03/22/Vineyard-Maintenence</id><content type="html" xml:base="/2021/03/22/Vineyard-Maintenence.html">&lt;p&gt;Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible
+berry of several species of woody vines in the genus Actinidia.&lt;/p&gt;
+
+&lt;p&gt;The most common cultivar group of kiwifruit is oval, about the size of a large
+hen’s egg (5–8 cm (2.0–3.1 in) in length and 4.5–5.5 cm (1.8–2.2 in) in
+diameter). It has a fibrous, dull greenish-brown skin and bright green or
+golden flesh with rows of tiny, black, edible seeds. The fruit has a soft
+texture, with a sweet and unique flavor.&lt;/p&gt;</content><author><name>interests</name></author><summary type="html">Kiwifruit (often abbreviated as kiwi), or Chinese gooseberry is the edible berry of several species of woody vines in the genus Actinidia.</summary></entry><entry><title type="html">Fruit Growing</title><link href="/2021/03/21/Fruit-growing.html" rel="alternate" type="text/html" title="Fruit Growing" /><published>2021-03-21T00:00:00+00:00</published><updated>2021-03-21T00:00:00+00:00</updated><id>/2021/03/21/Fruit-growing</id><content type="html" xml:base="/2021/03/21/Fruit-growing.html">&lt;p&gt;An apple is a sweet, edible fruit produced by an apple tree.&lt;/p&gt;
+
+&lt;p&gt;Apple trees are cultivated worldwide, and are the most widely grown species in
+the genus Malus. The tree originated in Central Asia, where its wild ancestor,
+Malus sieversii, is still found today. Apples have been grown for thousands of
+years in Asia and Europe, and were brought to North America by European
+colonists.&lt;/p&gt;</content><author><name>interests</name></author><summary type="html">An apple is a sweet, edible fruit produced by an apple tree.</summary></entry><entry><title type="html">Mumac Ltd</title><link href="/2021/03/20/mumac-Ltd.html" rel="alternate" type="text/html" title="Mumac Ltd" /><published>2021-03-20T00:00:00+00:00</published><updated>2021-03-20T00:00:00+00:00</updated><id>/2021/03/20/mumac-Ltd</id><content type="html" xml:base="/2021/03/20/mumac-Ltd.html">&lt;p&gt;A Medical Device Company&lt;br /&gt;
+&lt;a href=&quot;https://www.mumacltd.com/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/assets/images/mumac/Mumac_logo.jpg&quot; alternate=&quot;company logo&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A smart digital early-alert screening process that detects AMD at the earliest possible stage, when treatment can most effectively interrupt or slow down the progression of the disease.&lt;/p&gt;
+
+&lt;p&gt;Early detection of AMD is vital. If detected late or not diagnosed at all, it leads to either debilitating sight loss or blindness. RapiDA has been developed to help prevent the disease from progressing this far.&lt;/p&gt;
+
+&lt;p&gt;AMD is the largest cause of sight loss or blindness in the developed world. RapiDA’s early-alert digital screening process is a big step forward in tackling this major global health problem.&lt;/p&gt;
+
+&lt;p&gt;RapiDA has been developed by a University of Manchester spin-out company, Mumac. Its patented technologies, which use dark adaptation, are affordable, simple to operate and provide fast results – screening can be completed in just five minutes.&lt;/p&gt;
+
+&lt;p&gt;The team behind RapiDA has considerable experience of developing specialist ophthalmic instruments and techniques. Other innovative ophthalmic products are currently in the Mumac pipeline.&lt;/p&gt;</content><author><name>work</name></author><summary type="html">A Medical Device Company</summary></entry></feed>
