@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: http://emkayoh.com/sitemap.xml
